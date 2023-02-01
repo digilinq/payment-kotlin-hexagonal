@@ -1,0 +1,16 @@
+plugins {
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+    id 'org.jetbrains.kotlin.jvm' version '1.7.21'
+}
+
+subprojects {
+    group = 'com.digilinq.financial.payment'
+    version = '0.0.1-SNAPSHOT'
+
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'org.jetbrains.kotlin.jvm'
+
+    repositories {
+        mavenCentral()
+    }
+}
