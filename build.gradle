@@ -4,8 +4,9 @@ plugins {
 }
 
 subprojects {
-    group = 'com.digilinq.financial.payment'
+    group = 'org.digilinq.payment.eft'
     version = '0.0.1-SNAPSHOT'
+    sourceCompatibility = '17'
 
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'org.jetbrains.kotlin.jvm'
