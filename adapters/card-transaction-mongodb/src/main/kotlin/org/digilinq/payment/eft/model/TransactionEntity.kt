@@ -7,7 +7,7 @@ import java.math.BigDecimal
 import java.time.LocalDateTime
 
 @Document
-data class CardTransactionEntity(
+data class TransactionEntity(
     @Id val id: ObjectId = ObjectId.get(),
     val amount: BigDecimal,
     val transactionDate: LocalDateTime,

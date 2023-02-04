@@ -1,4 +1,4 @@
 package org.digilinq.payment.eft.model
 
-class Transaction {
+class FinancialTransaction {
 }

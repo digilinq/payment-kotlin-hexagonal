@@ -1,9 +1,9 @@
 package org.digilinq.payment.eft.repository
 
-import org.digilinq.payment.eft.model.CardTransactionEntity
+import org.digilinq.payment.eft.model.TransactionEntity
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface CardTransactionRepository : MongoRepository<CardTransactionEntity, String> {
+interface TransactionRepository : MongoRepository<TransactionEntity, String> {
 }

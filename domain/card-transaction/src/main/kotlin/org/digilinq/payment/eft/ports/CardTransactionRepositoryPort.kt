@@ -1,10 +1,10 @@
 package org.digilinq.payment.eft.ports
 
+import org.digilinq.payment.eft.model.FinancialTransaction
 import org.digilinq.payment.eft.model.ReversalTransaction
-import org.digilinq.payment.eft.model.Transaction
 
 interface CardTransactionRepositoryPort {
-    fun findTransactions(): List<Transaction>
-    fun performTransaction(transaction: Transaction)
+    fun findTransactions(): List<FinancialTransaction>
+    fun performTransaction(transaction: FinancialTransaction)
     fun reverseTransaction(reversalTransaction: ReversalTransaction)
 }

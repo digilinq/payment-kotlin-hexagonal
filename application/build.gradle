@@ -13,6 +13,11 @@ dependencies {
 
     implementation project(":infrastructure")
     implementation project(":domain:card-transaction")
+    implementation project(":adapters:card-transaction-mongodb")
+}
+
+repositories {
+    mavenCentral()
 }
 
 tasks.withType(KotlinCompile) {
