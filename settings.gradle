@@ -1,2 +1,6 @@
-rootProject.name = 'payment-service'
+rootProject.name = 'payment-kotlin-hexagonal'
+include 'domain:card-transaction'
+
+include 'adapters:card-transaction-mongodb'
+include 'infrastructure'
 include 'application'

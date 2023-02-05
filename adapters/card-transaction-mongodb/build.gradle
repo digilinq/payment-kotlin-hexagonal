@@ -7,17 +7,19 @@ plugins {
     id 'org.jetbrains.kotlin.plugin.spring' version '1.6.21'
 }
 
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-    implementation project(":infrastructure")
-    implementation project(":domain:card-transaction")
-    implementation project(":adapters:card-transaction-mongodb")
-}
-
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
+
+    implementation project(":domain:card-transaction")
+}
+
+bootJar {
+    enabled = false
 }
 
 tasks.withType(KotlinCompile) {

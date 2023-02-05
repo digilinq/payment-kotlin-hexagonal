@@ -8,10 +8,22 @@ subprojects {
     version = '0.0.1-SNAPSHOT'
     sourceCompatibility = '17'
 
-    apply plugin: 'io.spring.dependency-management'
+//    apply plugin: 'io.spring.dependency-management'
     apply plugin: 'org.jetbrains.kotlin.jvm'
 
-    repositories {
-        mavenCentral()
-    }
+//    repositories {
+//        mavenCentral()
+//    }
+
+//    dependencyManagement {
+//        imports {
+//            mavenBom SpringBootPlugin.BOM_COORDINATES
+//        }
+//    }
+
+//    dependencyManagement {
+//        imports {
+//            mavenBom ("org.springframework.boot:spring-boot-dependencies:2.7.8")
+//        }
+//    }
 }
