@@ -12,8 +12,8 @@ class CardTransactionServiceImpl(
         return repositoryPort.findTransactions()
     }
 
-    override fun performTransaction(transaction: FinancialTransaction) {
-        repositoryPort.performTransaction(transaction)
+    override fun performTransaction(financialTransaction: FinancialTransaction) {
+        repositoryPort.performTransaction(financialTransaction)
     }
 
     override fun reverseTransaction(reversalTransaction: ReversalTransaction) {
