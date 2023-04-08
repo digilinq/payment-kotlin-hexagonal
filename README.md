@@ -19,3 +19,5 @@ Suffice it to say that the dependencies between classes within a single monolith
 
 
 [Understanding Hexagonal Architecture With a Spring Boot Implementation](https://betterprogramming.pub/hexagonal-architecture-with-spring-boot-74e93030eba3)
+
+
