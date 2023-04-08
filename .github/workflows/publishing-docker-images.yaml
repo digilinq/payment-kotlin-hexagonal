@@ -12,5 +12,6 @@ jobs:
 
   create-docker-image:
     runs-on: ubuntu-latest
+    needs: create-image
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
