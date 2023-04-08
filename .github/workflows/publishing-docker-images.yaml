@@ -1,6 +1,6 @@
 name: Publishing Docker images
 on:
-  pull-request:
+  push:
     branches:
       - main
 
