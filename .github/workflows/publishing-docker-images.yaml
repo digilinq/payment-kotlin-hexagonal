@@ -1,0 +1,10 @@
+name: Publishing Docker images
+on:
+  pull-request:
+    branches:
+      - main
+
+jobs:
+  create-image:
+    steps:
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
