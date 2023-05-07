@@ -15,13 +15,9 @@ Within a codebase, we usually use packages to demarcate architectural boundaries
 But packages in Java aren’t very good at protecting those boundaries. 
 Suffice it to say that the dependencies between classes within a single monolithic codebase tend to quickly degrade into a big ball of mud.
 
-
-
 [Ports & Adapters](https://codesoapbox.dev/ports-adapters-aka-hexagonal-architecture-explained/)
 
 [GitHub repository](https://github.com/daniel-frak)
-
-
 
 [Understanding Hexagonal Architecture With a Spring Boot Implementation](https://betterprogramming.pub/hexagonal-architecture-with-spring-boot-74e93030eba3)
 
