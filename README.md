@@ -1,9 +1,13 @@
 # payment-kotlin-hexagonal
 
 [How to create multi module project](https://spring.io/guides/gs/multi-module/)
+
 [Building a Multi-Module Spring Boot Application with Gradle](https://reflectoring.io/spring-boot-gradle-multi-module/)
+
 [All About Hexagonal Architecture](https://reflectoring.io/book/)
+
 [Building a Multi-Module Spring Boot Application with Gradle](https://reflectoring.io/spring-boot-gradle-multi-module/)
+
 Why would we make the effort to split up our codebase into multiple modules when everything works just fine with a single, monolithic module?
 
 The main reason is that a single monolithic codebase is susceptible to architectural decay. 
