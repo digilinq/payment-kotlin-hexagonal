@@ -18,6 +18,7 @@ Suffice it to say that the dependencies between classes within a single monolith
 
 
 [Ports & Adapters](https://codesoapbox.dev/ports-adapters-aka-hexagonal-architecture-explained/)
+
 [GitHub repository](https://github.com/daniel-frak)
 
 
